@@ -6,4 +6,4 @@ These guidelines are meant to supplement and ultimately be merged with the gener
 3. [POS tagging in detail](/Pos%20tagging%20in%20detail.md)
 4. [Morphological features](/Morphological%20features.md)
 5. [Dependency relations in detail](/Dependnecy%20relations%20in%20detail.md)
-6. 
+6. [Appendix](Appendix.md)
