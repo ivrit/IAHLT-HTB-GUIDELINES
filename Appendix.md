@@ -13,18 +13,19 @@ During conversion, ‘inserted’ tokens, such as unexpressed definite articles 
 -          Added definiteness and article feature to elided article subtokens:
 
 #### OLD:
-
+```
 22-24    	לעובדים  	_           	_           	_             	_           	_           	_           	_             	_
 22         	ל           	ל           	ADP     	ADP             	_           	24         	case      	_             	_
 23         	ה_         	ה           	DET     	DET             	Definite=Def|PronType=Art    	24             	det        	_           	_
 24         	עובדים    	עובד       	NOUN  	NOUN             	Gender=Masc|Number=Plur    	20             	nmod    	_           	_
-
+```
 #### NEW:
 ```
 22-23    	לעובדים  	_           	_           	_             	_           	_           	_           	_             	_
 22         	ל           	ל           	ADP     	ADP             	Definite=Def|PronType=Art         	23         	case             	_           	_
 23         	עובדים    	עובד       	NOUN  	NOUN             	Gender=Masc|Number=Plur    	20             	nmod    	_           	_
-24         	מתחת     	מתחת     	ADP     	ADP             	_           	26         	case      	_             	_```
+24         	מתחת     	מתחת     	ADP     	ADP             	_           	26         	case      	_             	_
+```
 
 Note that adding the features on prepositions, rather than nouns, is consistent with treatment of regular definiteness, since where a normal ה is present, definiteness is marked on the article, not the noun (so we should not mark it on the noun here either).
 
