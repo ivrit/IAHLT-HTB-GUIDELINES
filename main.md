@@ -5,3 +5,4 @@ These guidelines are meant to supplement and ultimately be merged with the gener
 2. [Segmentation](/Segmentation.md) 
 3. [POS tagging in detail](/Pos%20tagging%20in%20detail.md)
 4. [Morphological features](/Morphological%20features.md)
+5. [Dependency relations in detail](https://github.com/ivrit/IAHLT-HTB/blob/main/Pos%20tagging%20in%20detail.md)
