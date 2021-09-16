@@ -819,6 +819,8 @@ This is not the best example, since מיודדת is probably better tagged as AD
 #### Dates
 ●	Why do we use the obl deprel from day to month in Hebrew Dates, like the one below? Is it solely because of the preposition? Shouldn’t nmod be more suitable, considering the day is not strictly a numeral, but a shorthand for “the 25th day”, that is, a nominalized numeral?
 
+
+```
 המאמר פורסם בעיתון "מאמענט", שראה אור בוורשה שבפולין, ב-25 ביוני 1933.
 
 19	ב	ב	ADP	ADP	_	21	case	_	_
@@ -827,3 +829,4 @@ This is not the best example, since מיודדת is probably better tagged as AD
 22	ב	ב	ADP	ADP	_	23	case	_	_
 23	יוני	יוני	PROPN	PROPN	_	21	obl	_	_
 24	1933	1933	NUM	NUM	_	21	nmod:tmod	_	SpaceAfter=No
+```
