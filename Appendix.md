@@ -79,15 +79,22 @@ This subtype was added based on the morphological Voice feature of the head of a
 
 Corrupted text
 HTB seems to have an odd inversion of textual numbers, spelled ‘right to left’:
+```
 28-29   ב01  	_      	_      	_      	_        	_      	_      	_      	_
 28    	ב      	ב      	ADP	ADP	_        	30    	case 	_      	_
 29    	01    	01    	NUM   NUM   _        	30    	nummod      	_      	_
 30    	אלפים   אלפים   NUM   NUM        	Gender=Masc|Number=Plur  27        	obl   	_      	SpaceAfter=No
+```
+
+
 Corrected these cases to:
+```
 27-28   ב10  	_      	_      	_      	_        	_      	_      	_      	_
 27    	ב      	ב      	ADP	ADP	_        	29    	case 	_      	_
 28    	10    	10    	NUM   NUM   _        	29    	nummod      	_      	_
 29    	אלפים   אלפים   NUM   NUM        	Gender=Masc|Number=Plur  26        	obl   	_      	SpaceAfter=No
+```
+
  Opened issues in UD_Hebrew:
 https://github.com/UniversalDependencies/UD_Hebrew-HTB/issues/26 
 But the correction was heuristic and based on the supertoken text – this might be worth letting someone go over manually/by comparing with the original TB, since some inverted numbers might be present which were not part of supertokens (so there is no record of their correct textual representation in the data).
