@@ -4,3 +4,4 @@ These guidelines are meant to supplement and ultimately be merged with the gener
 1. [Constructional changes from UD HTB](/Constructional%20changes%20from%20UD%20HTB.md)
 2. [Segmentation](/Segmentation.md) 
 3. [POS tagging in detail](/Pos%20tagging%20in%20detail.md)
+4. [Morphological features](/Morphological%20features.md)
