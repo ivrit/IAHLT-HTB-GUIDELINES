@@ -1,6 +1,6 @@
 ## Segmentation
 
-**_NOTE:_**  Shira to update this section. 
+> **_NOTE:_**  Shira to update this section. 
 
 
 ### Complex expressions NOT to segment
