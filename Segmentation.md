@@ -1,4 +1,4 @@
-## Segmentation> 
+## Segmentation
 
 > **_NOTE:_** **SHIRA** to update this section.
 
