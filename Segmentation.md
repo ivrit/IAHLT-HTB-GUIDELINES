@@ -1,6 +1,6 @@
 ## Segmentation
 
-> **_NOTE:_** ![#f03c15] Shira to update this section. `#f03c15`
+![#f03c15] > **_NOTE:_**  Shira to update this section. `#f03c15`
 
 
 ### Complex expressions NOT to segment
