@@ -1,1 +1,304 @@
 
+<svg width="1517.453125" height="312.671875" class="interactive" xmlns="http://www.w3.org/2000/svg">
+<style> 
+<![CDATA[  
+   .curve {
+	stroke: black;
+	stroke-width: 1;
+	fill: none;
+}
+.dark .curve {
+	stroke: rgb(248, 244, 244);
+	stroke-width: 1;
+	fill: none;	
+}
+.arrowhead {
+	fill: white;
+	stroke: black;
+	stroke-width: .8;
+}
+.FORM {
+	fill:black;
+	text-align: center;
+} 
+.dark .FORM {
+		fill:rgb(255, 255, 255);
+		text-align: center;
+	}
+.LEMMA {
+	font: 15px DejaVu Sans;
+	fill: black;
+	font-family:sans-serif;
+	text-align: center;
+	font-style: italic;
+} 
+.dark .LEMMA {
+	font: 15px DejaVu Sans;
+	fill: rgb(238, 232, 232);
+	font-family:sans-serif;
+	text-align: center;
+	font-style: italic;
+} 
+.MISC-Gloss {
+	font: 15px DejaVu Sans;
+	fill: rgb(124, 96, 86);
+	font-family:sans-serif;
+	text-align: center;
+	font-style: italic;
+} 
+.UPOS {
+	font: 11px DejaVu Sans;
+	fill: rgb(80, 29, 125);
+	text-align: center;
+} 
+.UPOSselected {
+	font: 11px DejaVu Sans;
+	fill: #dd137bff;
+	font-weight: bold;
+	text-align: center;
+} 
+.DEPREL {
+	font: 12px Arial;
+	fill: #501d7d;
+	font-style: oblique;
+	font-family:sans-serif;
+	cursor:pointer;
+	--funcCurveDist:3; /* distance between the function name and the curves highest point */
+} 
+.dark .DEPREL {
+	font: 12px Arial;
+	fill: #aab3ff;
+	font-style: oblique;
+	font-family:sans-serif;
+	cursor:pointer;
+	--funcCurveDist:3; /* distance between the function name and the curves highest point */
+}
+    ]]>  
+</style> 
+<defs>
+</defs>
+<text x="23.140625" y="250" class="FORM">
+    .    </text>
+<text x="20" y="270" class="UPOS">
+PUNCT</text>
+<text x="20.1015625" y="290" class="LEMMA">
+    .    </text>
+<text x="28.9453125" y="310" class="MISC">
+        </text>
+<text x="102.84375" y="250" class="FORM">
+    88    </text>
+<text x="97.703125" y="270" class="UPOS">
+    NUM    </text>
+<text x="99.5625" y="290" class="LEMMA">
+    88    </text>
+<text x="114.6640625" y="310" class="MISC">
+        </text>
+<text x="196.578125" y="250" class="FORM">
+    91    </text>
+<text x="191.4375" y="270" class="UPOS">
+    NUM    </text>
+<text x="193.296875" y="290" class="LEMMA">
+    91    </text>
+<text x="208.3984375" y="310" class="MISC">
+        </text>
+<text x="288.5390625" y="250" class="FORM">
+    -    </text>
+<text x="285.484375" y="270" class="UPOS">
+PUNCT</text>
+<text x="285.171875" y="290" class="LEMMA">
+    -    </text>
+<text x="294.4296875" y="310" class="MISC">
+        </text>
+<text x="371.6875" y="250" class="FORM">
+    ל    </text>
+<text x="363.5" y="270" class="UPOS">
+    ADP    </text>
+<text x="368.65625" y="290" class="LEMMA">
+    ל    </text>
+<text x="378.890625" y="310" class="MISC">
+        </text>
+<text x="466.921875" y="250" class="FORM">
+תוצאה</text>
+<text x="454.09375" y="270" class="UPOS">
+    NOUN    </text>
+<text x="465.59375" y="290" class="LEMMA">
+תוצאה</text>
+<text x="474.75" y="310" class="MISC">
+        </text>
+<text x="562.1875" y="250" class="FORM">
+    ה    </text>
+<text x="555.21875" y="270" class="UPOS">
+    DET    </text>
+<text x="559.0859375" y="290" class="LEMMA">
+    ה    </text>
+<text x="570.359375" y="310" class="MISC">
+        </text>
+<text x="657.1171875" y="250" class="FORM">
+צימצום</text>
+<text x="645.3125" y="270" class="UPOS">
+    NOUN    </text>
+<text x="655.59375" y="290" class="LEMMA">
+צימצום</text>
+<text x="665.96875" y="310" class="MISC">
+        </text>
+<text x="749.84375" y="250" class="FORM">
+    את    </text>
+<text x="746.8515625" y="270" class="UPOS">
+    ADP    </text>
+<text x="746.4375" y="290" class="LEMMA">
+    את    </text>
+<text x="762.2421875" y="310" class="MISC">
+        </text>
+<text x="842.9375" y="250" class="FORM">
+    דקה    </text>
+<text x="837.859375" y="270" class="UPOS">
+    NOUN    </text>
+<text x="839.3046875" y="290" class="LEMMA">
+    דקה    </text>
+<text x="858.515625" y="310" class="MISC">
+        </text>
+<text x="942.75" y="250" class="FORM">
+    בתוך    </text>
+<text x="944.90625" y="270" class="UPOS">
+    ADP    </text>
+<text x="938.984375" y="290" class="LEMMA">
+    בתוך    </text>
+<text x="960.296875" y="310" class="MISC">
+        </text>
+<text x="1042.234375" y="250" class="FORM">
+    גררה    </text>
+<text x="1041.421875" y="270" class="UPOS">
+    VERB    </text>
+<text x="1042.9375" y="290" class="LEMMA">
+    גרר    </text>
+<text x="1060.328125" y="310" class="MISC">
+        </text>
+<text x="1142.484375" y="250" class="FORM">
+    ליף    </text>
+<text x="1146.390625" y="270" class="UPOS">
+PROPN</text>
+<text x="1139.046875" y="290" class="LEMMA">
+    ליף    </text>
+<text x="1155.375" y="310" class="MISC">
+        </text>
+<text x="1234.890625" y="250" class="FORM">
+    של    </text>
+<text x="1231.5625" y="270" class="UPOS">
+    ADP    </text>
+<text x="1231.515625" y="290" class="LEMMA">
+    של    </text>
+<text x="1246.953125" y="310" class="MISC">
+        </text>
+<text x="1336.171875" y="250" class="FORM">
+    ו    </text>
+<text x="1322.203125" y="270" class="UPOS">
+    PRON    </text>
+<text x="1324.515625" y="290" class="LEMMA">
+    הוא    </text>
+<text x="1341.859375" y="310" class="MISC">
+        </text>
+<text x="1436.6484375" y="250" class="FORM">
+יציאת</text>
+<text x="1421.328125" y="270" class="UPOS">
+    NOUN    </text>
+<text x="1435.4921875" y="290" class="LEMMA">
+יציאה</text>
+<text x="1441.984375" y="310" class="MISC">
+        </text>
+<path d="M1451.890625,232 C1451.890625,70 1079.234375,70 1079.234375,232" class="curve">
+</path>
+<path d="M1451.890625,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="1250.328125" y="105.5" class="DEPREL">
+nsubj</text>
+<path d="M1351.765625,232 C1351.765625,190 1442.890625,190 1442.890625,232" class="curve">
+</path>
+<path d="M1351.765625,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="1367.421875" y="195.5" class="DEPREL">
+nmod:poss</text>
+<path d="M1256.859375,232 C1256.859375,190 1174.28125,190 1174.28125,232" class="curve">
+</path>
+<path d="M1256.859375,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="1202.671875" y="195.5" class="DEPREL">
+case</text>
+<path d="M1165.28125,232 C1165.28125,130 1442.890625,130 1442.890625,232" class="curve">
+</path>
+<path d="M1165.28125,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="1274.171875" y="150.5" class="DEPREL">
+nmod:poss</text>
+<path d="M1070.234375,232 L1070.234375,0 " class="curve">
+</path>
+<path d="M1070.234375,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="1079.3359375" y="30" class="DEPREL">
+root</text>
+<path d="M970.203125,232 C970.203125,190 877.421875,190 877.421875,232" class="curve">
+</path>
+<path d="M970.203125,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="910.9140625" y="195.5" class="DEPREL">
+case</text>
+<path d="M868.421875,232 C868.421875,130 1061.234375,130 1061.234375,232" class="curve">
+</path>
+<path d="M868.421875,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="956.375" y="150.5" class="DEPREL">
+obl</text>
+<path d="M772.1484375,232 C772.1484375,190 684.875,190 684.875,232" class="curve">
+</path>
+<path d="M772.1484375,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="715.61328125" y="195.5" class="DEPREL">
+case</text>
+<path d="M675.875,232 C675.875,70 1061.234375,70 1061.234375,232" class="curve">
+</path>
+<path d="M675.875,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="859.6484375" y="105.5" class="DEPREL">
+obj</text>
+<path d="M580.265625,232 C580.265625,190 493.65625,190 493.65625,232" class="curve">
+</path>
+<path d="M580.265625,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="528.0546875" y="195.5" class="DEPREL">
+det</text>
+<path d="M484.65625,232 C484.65625,130 666.875,130 666.875,232" class="curve">
+</path>
+<path d="M484.65625,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="528.1875" y="150.5" class="DEPREL">
+compound:smixut</text>
+<path d="M388.796875,232 C388.796875,130 227.3046875,130 227.3046875,232" class="curve">
+</path>
+<path d="M388.796875,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="295.15234375" y="150.5" class="DEPREL">
+case</text>
+<path d="M304.3359375,232 C304.3359375,190 227.3046875,190 227.3046875,232" class="curve">
+</path>
+<path d="M304.3359375,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="250.1328125" y="195.5" class="DEPREL">
+punct</text>
+<path d="M218.3046875,232 C218.3046875,70 666.875,70 666.875,232" class="curve">
+</path>
+<path d="M218.3046875,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="426.91015625" y="105.5" class="DEPREL">
+nmod</text>
+<path d="M124.5703125,232 C124.5703125,190 209.3046875,190 209.3046875,232" class="curve">
+</path>
+<path d="M124.5703125,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="142.9296875" y="195.5" class="DEPREL">
+nummod</text>
+<path d="M38.8515625,232 C38.8515625,10 1061.234375,10 1061.234375,232" class="curve">
+</path>
+<path d="M38.8515625,232c0,0-2.5,-7.5 -2.5,-7.5c2.5,2.5 2.5,2.5 5,0z" class="arrowhead">
+</path>
+<text x="534.35546875" y="60.5" class="DEPREL">
+punct</text>
+</svg>
