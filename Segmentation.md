@@ -1,6 +1,6 @@
 ## Segmentation> 
 
-**_NOTE:_** ![#f03c15](https://via.placeholder.com/35/0000FF/FFFFFF?Text=SHIRA) to update this section.
+**_NOTE:_** ![#f03c15](https://via.placeholder.com/35/0000FF/FFFFFF?Text=SHIRA.com) to update this section.
 
 
 
