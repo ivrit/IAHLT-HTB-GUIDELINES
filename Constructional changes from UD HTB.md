@@ -6,8 +6,6 @@ The current analysis of סביר as an auxiliary in HTB looks wrong and should p
 HTB analysis with סביר as AUX:
 
 tree
-Speaking of 
-[Considoer tis case.](https://arborator.iahlt.org/#/projects/HTB/test/3/)
 
 Suggested analysis used in new data with סביר as ADJ:
 
