@@ -1,6 +1,6 @@
-## Segmentation
+## Segmentation> 
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) > **_NOTE:_**  Shira to update this section. 
+**_NOTE:_** ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Shira to update this section. 
 
 
 ### Complex expressions NOT to segment
