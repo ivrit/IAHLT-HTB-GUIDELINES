@@ -1,4 +1,9 @@
 ## Segmentation
+
+<div style="text-align: right"> 
+**_NOTE:_**  Shira to update this section. 
+</div>
+
 ### Complex expressions NOT to segment
 The following expressions are not segmented and retrained as single tokens:
 
