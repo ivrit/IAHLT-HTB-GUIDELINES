@@ -602,6 +602,7 @@ The following fixed expressions of 2-4 tokens are recognized:
  
         אחרי ש 
         אל תוך 
+	באשר ל
         ב העדר 
         בהתבסס על 
         ב מהלך/מסגרת/פי
@@ -612,6 +613,7 @@ The following fixed expressions of 2-4 tokens are recognized:
         למעלה מ 
         מ אז/זה/לפני
         מ זה 
+	מעבר ל
         מעל ל 
         עד כדי/כה/ל/לפני/מאוד
         על אודות/אף/גבי/ידי/כן/פי/פני/רקע
@@ -619,10 +621,14 @@ The following fixed expressions of 2-4 tokens are recognized:
 
     -	Conjunctions
         אם כי 
+	אף על פי ש
         אף/בגלל/כדי/כפי/כשם/לפני/למרות/מאחר/מפני/משום/עד/כך ש 
         בגלל ש 
         היות ו 
-        על מנת
+	היות ש
+        למרות ש
+	על מנת
+	תוך ש
 
     -	Coordinations
         ו אולם/אילו 
@@ -685,6 +691,7 @@ The following fixed expressions of 2-4 tokens are recognized:
         מ חוץ ל
         מ סביב ל
         עד כדי כך 
+	עד כה
     -	Adverbial
  
         יותר מ כל
