@@ -640,7 +640,8 @@ The following fixed expressions of 2-4 tokens are recognized:
         לא אחת 
         לא כבר 
         סוף סוף 
-        קודם/ראשית כל  
+        עד כה
+	קודם/ראשית כל  
 
 
 -	**Three tokens**:
