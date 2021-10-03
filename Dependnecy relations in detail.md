@@ -688,7 +688,6 @@ The following fixed expressions of 2-4 tokens are recognized:
         ב כלל זה
         (ב) נוסף ל/על
         ב תמורה ל
-        ל עתים (לא) קרובות/רחוקות/תכופות (מדי/יותר)
         מ חוץ ל
         מ סביב ל
         עד כדי כך 
