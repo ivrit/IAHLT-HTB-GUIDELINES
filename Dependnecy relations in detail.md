@@ -626,6 +626,7 @@ The following fixed expressions of 2-4 tokens are recognized:
         בגלל ש 
         היות ו 
 	היות ש
+	לאחר ש
         למרות ש
 	על מנת
 	תוך ש
