@@ -518,7 +518,7 @@ In the following section, we outline the morphological features for each POS tag
         <td></td>
         <td></td>
         <td>Irr</td>
-        <td>Reserved for beinoni, in contra-factual constructions. No Tense feature should be assigned to the beinoni in this case, e.g., היינו רגועים יותר, לו הצבא האמריקאי היה מעדכן את צה"ל בכל הנוגע לתכונותיו של הצבא העיראקי , בכוויית ובעיראק עצמה.</td>
+        <td>Reserved for beinoni, in contra-factual constructions. No Tense feature should be assigned to the beinoni in this case, but the AUX (היה) should get Tense=Past even though it doesn't semantically refer to the past, e.g., היינו רגועים יותר, לו הצבא האמריקאי היה מעדכן את צה"ל בכל הנוגע לתכונותיו של הצבא העיראקי , בכוויית ובעיראק עצמה.</td>
     </tr>
     <tr>
         <td></td>
@@ -539,10 +539,6 @@ In the following section, we outline the morphological features for each POS tag
         <td>Infinitive forms (In all verbal templates but passives PUAL and HUFAL): בני משפחת מנגיסטו דרשו מהצלב האדום לסייע להחזיר את בנם ארצה. The first infinitive לסייע is Active in HebBinyan = PIEL The second infinitive להחזיר is also Active in HebBinyan = HIFIL    הוא השאיר את הפסטה על הכיריים להתבשל  The infinitive להתבשל is Middle in HebBinyan = HITPAEL</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td>Vnoun</td>
-        <td>For infinitive absolute in clear adverbial clause uses. Cp. עד רדת הלילה which is a simple ADP+NOUN  vs. ברדתו אל הבאר, מעד ונחבל בראשו Which is segmented ב|רדת|ו with ב as SCONJ+mark With רדת as VERB+advcl With ו as PRON+nsubj</td>
     </tr>
     <tr>
         <td></td>
