@@ -561,7 +561,7 @@ tree
 
 This label is used for a closed set of prefixes forming complex words, but only when they are spelled apart. The allowed prefixes are:
 
--	בין, תת, דו, חד, תלת, פרו, קדם, אנטי, סופר, נאו, מולטי, מיני, אקס, כלל, פוסט, טרום 
+-	בין, תת, דו, חד, תלת, פרו, קדם, אנטי, סופר, נאו, מולטי, מיני, אקס, כלל, פוסט, טרום, כל/כול, היפר, היפו 
 
 Rare prefixes are:
 -	גראם/גרם (חיידקים גראם-חיוביים)
