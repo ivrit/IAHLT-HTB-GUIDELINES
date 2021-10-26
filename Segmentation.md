@@ -8,9 +8,10 @@
 The following expressions are not segmented and retrained as single tokens:
 
 -	היום, החודש, השנה, השבוע (in the temporal adverbial sense "this year" etc)
--	באמת, בדיוק, בדיעבד, בוודאי, ביותר, בכלל, בלבד, במיוחד, במקביל, בעיקר, בפרט, בראשונה
--	לפחות, למשל, לעולם, לראשונה, לשעבר
+-	באמת, בדיוק, בדיעבד, בוודאי, ביותר, בכלל, בלבד, במיוחד, במפורש, בעיקר, בפרט, במקביל, בראשונה
+-	לבסוף, למשל, לעולם, לפחות, לראשונה, לשעבר
 -	כאמור, כיום, כמעט, כמובן, כנראה, כעבור
+- מחדש
 
 ### Similar complex expressions that ARE segmented
 -	כרגיל, כראוי
