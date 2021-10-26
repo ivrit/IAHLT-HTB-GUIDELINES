@@ -102,24 +102,21 @@ Note: UD also uses a tag PART for particles, which is not currently in use in UD
 The tag ADP is used for adpositions, which in Hebrew designates either simple (i.e. single token) prepositions or complex (multi-token) ones, whose components are attached to the first word in the complex expression. The preposition is attached to the head of its phrase with the deprel case. The following list is based on HTB’s contents and is intended to be exhaustive, though further prepositions which are not listed yet can potentially be added after careful consideration.
 
 List of single token prepositions:
-|     אחר       |     אחרי    |     אל        |     אצל        |
-|---------------|-------------|---------------|----------------|
-|     את        |     ב       |     באוזני    |     באמצעות    |
-|     בגדר      |     בגין    |     בטרם      |     בידי       |
-|     בין       |     בלי     |     במקום     |     במשך       |
-|     בעקבות    |     בפני    |     בקרב      |     בתוך       |
-|     בתוככי    |     דרך     |     החל       |     חרף        |
-|     כ         |     כגון    |     כדי       |     כלפי       |
-|     כמו       |     כנגד    |     ל         |     לאור       |
-|     לאורך     |     לאחר    |     לבין      |     ליד        |
-|     ללא       |     למען    |     למרות     |     לעבר       |
-|     לעומת     |     לפי     |     לפני      |     לרבות      |
-|     לרגל      |     לשם     |     לתוך      |     מ          |
-|     מאשר      |     מבין    |     מבלי      |     מול        |
-|     מחמת      |     מן      |     מעבר      |     מפני       |
-|     מתוך      |     מתחת    |     נגד       |     נוכח       |
-|     ע"ש       |     עד      |     על        |     עם         |
-|     פי        |     של      |     תוך       |                |
+|     אחרי      |     אל         |     אצל      |     את       |     ב         |
+|---------------|----------------|--------------|--------------|---------------|
+|     באוזני    |     באמצעות    |     בגדר     |     בגין     |     בטרם      |
+|     בידי      |     בין        |     בלי      |     במקום    |     במשך      |
+|     בעקבות    |     בפני       |     בקרב     |     בתוך     |     בתוככי    |
+|     דרך       |     החל        |     חרף      |     כ        |     כגון      |
+|     כדי       |     כלפי       |     כמו      |     כנגד     |     ל         |
+|     לאור      |     לאורך      |     לאחר     |     לבין     |     ליד       |
+|     ללא       |     למען       |     למרות    |     לעבר     |     לעומת     |
+|     לפי       |     לפני       |     לרבות    |     לרגל     |     לשם       |
+|     לתוך      |     מ          |     מאשר     |     מבין     |     מבלי      |
+|     מול       |     מחמת       |     מלבד     |     מן       |     מעבר      |
+|     מפני      |     מתוך       |     מתחת     |     נגד      |     נוכח      |
+|     ע"ש       |     עד         |     על       |     עם       |     פי        |
+|     של        |     תוך        |              |              |               |
 
 In complex prepositions, components derived from other POS tags retain their original tags, while the entire expression is attached using the deprel case.
 
@@ -219,6 +216,7 @@ The following simple lemmas are allowed as SCONJ:
 -	כי, אם
 -	כפי, ככל, כשם
 -	אם, שמא
+-	באם, האם
 -	כש, מש, לכש, כאשר
 -	ו' (במקרה ו... הלוואי ו... ייתכן ו...)
 -	במקום
