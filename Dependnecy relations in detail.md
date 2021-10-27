@@ -115,6 +115,12 @@ Note how in this example, it is not possible to say “היא נעשית את מ
 
 tree
 
+Additionally, the `xcomp` label is used for the structures בשם and מסוג (the tokens שם and סוג govern through `xcomp`)
+
+- ילד בשם דני
+- צהבת נגיפית מסוג הפטיטיס
+
+
 ### Non-Core Dependents
 #### advcl
 
