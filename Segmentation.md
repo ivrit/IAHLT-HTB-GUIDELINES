@@ -14,4 +14,5 @@ The following expressions are not segmented and retrained as single tokens:
 - מחדש
 
 ### Similar complex expressions that ARE segmented
--	כרגיל, כראוי
+-	כרגיל, כראוי - both are ADP+ADJ governed through `obl`
+- note that when למחרת is in nismax position, and only when it's in nismax position, it is segemented - ל+מחרת ה+יום, ל+מחרת ה+חקירה. In these cases, מחרת is tagged NOUN (Gender=Fem, lemma=מחרת), governed through `obl` and it governs the next NOUN through `compound`. When it doesn't take `compound`, it stays as unsegmented ADV - למחרת. 
