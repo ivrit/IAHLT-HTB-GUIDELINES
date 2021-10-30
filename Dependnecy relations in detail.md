@@ -67,6 +67,12 @@ When in doubt about complement clause (ccomp) vs. subject clause status, conside
 -	*את מה היה נדמה? שדיסני עלתה שוב על הסוס
 -	*היה נדמה את זה
 
+note that ADV can also govern a `csubj`, in case of -
+
+- אל לרגש לגבור על השכל
+
+The token אל is tagged ADV (Polarity=Neg) and govern רגש through `obl` and לגבור through `csubj`.
+
 #### csubj:pass
 
 This relation is analogous to csubj, except that the predicate is a passive finite verb or predicative passive participle (בינוני פעול). This does not include possible ‘mediopassives’ (Voice=Mid) where an action is not truly passive, but uses a reflexive binyan to indicate benefactivity or self-interest of the agent (for example נמאס is usually not a true passive). A common test for passive as opposed to medium forms is the possibility of introducing a by-agent (על ידי…, e.g. * נמאס על-ידיי לעבוד is odd, but הוא נרצח על ידיהם is grammatical, i.e. a true passive). See the Voice feature under Morphology for more details.
