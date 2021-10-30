@@ -188,7 +188,7 @@ In the following section, we outline the morphological features for each POS tag
         <td></td>
         <td></td>
         <td>Emp  </td>
-        <td>Emphatic Pronouns (No ADP and often in determiner position) = עצמה, עצמן, עצמכם (Lemma: עצמו) גבולות מדיניים מפרידים בין ארצות, וגבולות אתניים מפרידים בתוך הארצות עצמן.</td>
+        <td>Emphatic Pronouns (No ADP; in `nmod:npmod` position) = עצמה, עצמן, עצמכם (Lemma: עצמו) גבולות מדיניים מפרידים בין ארצות, וגבולות אתניים מפרידים בתוך הארצות עצמן.</td>
     </tr>
     <tr>
         <td></td>
