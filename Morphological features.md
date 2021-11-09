@@ -39,13 +39,7 @@ In the following section, we outline the morphological features for each POS tag
         <td></td>
         <td>Plur</td>
         <td>כדורים, עובדות, מעצבים/ות</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>(Dual)</td>
-        <td>(שבועיים, שנתיים, יומיים)</td>
-    </tr>
+   </tr>
     <tr>
         <td></td>
         <td>Definite</td>
