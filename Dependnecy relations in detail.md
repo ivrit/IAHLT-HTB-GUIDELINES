@@ -612,6 +612,13 @@ It is also possible to have nested coordination, in which case nested conjuncts 
 
 tree
 
+
+Note that `conj` is possible even when there is no `cc`, if you can insert 've':
+
+בואו נעשה
+
+`conj` (bou, naase)
+
 #### dep
 
 A dependency can be labeled as dep when it is impossible to determine a more precise relation. This may be because of a weird grammatical construction, or a construction for which none of the existing guidelines apply, with the understanding that we may want to go back and devise guidelines for such cases. The use of dep should be avoided as much as possible.
