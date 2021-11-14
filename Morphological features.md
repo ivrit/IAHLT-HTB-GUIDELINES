@@ -102,12 +102,6 @@ In the following section, we outline the morphological features for each POS tag
     </tr>
     <tr>
         <td></td>
-        <td>Prefix</td>
-        <td>Yes</td>
-        <td>Modifying a NOUN: אנטי-קומוניסט, מולטי-מיליונר</td>
-    </tr>
-    <tr>
-        <td></td>
         <td>NumType</td>
         <td>Ord  </td>
         <td>Ordinal numbers (ראשון, שני, שלישי, etc.) are tagged ADJ (default Lemma = Masc): זה היה שערו החמישי העונה בליגה. Also for Arabic numerals as ADJ: שחר פאר סיימה במקום ה-3 בעולם.</td>
@@ -272,7 +266,7 @@ In the following section, we outline the morphological features for each POS tag
         <td>ADV</td>
         <td>Prefix</td>
         <td>Yes</td>
-        <td>Modifying an ADJ: דו-קוטבי, תלת-ספרתי, רב-לאומית ADV: חד-חד-ערכי  VERB: אי אפשר</td>
+        <td>Modifying an ADJ: דו-קוטבי, תלת-ספרתי, רב-לאומית ADV: חד-חד-ערכי  VERB: אי אפשר Noun: אנטי-קומוניסט, מולטי-מיליונר</td>
     </tr>
     <tr>
         <td></td>
