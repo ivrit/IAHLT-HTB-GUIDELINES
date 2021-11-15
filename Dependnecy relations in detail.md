@@ -583,7 +583,7 @@ Example:
 tree
 
 
-Note that compound:affix modifiers are usually tagged ADV.
+Note that compound:affix modifiers are usually tagged ADV (very rare exceptions are numerals in a prefix position, tagged NUM).
 
 #### compound
 
