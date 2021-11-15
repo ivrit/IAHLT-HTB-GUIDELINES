@@ -583,7 +583,7 @@ Example:
 tree
 
 
-Note that the POS category of the prefix token is determined by the head word’s POS: compound:affix modifiers of NOUN are tagged ADJ, while compound:affix modifiers of ADJ/ADV are tagged ADV..
+Note that compound:affix modifiers are tagged ADV.
 
 #### compound
 
