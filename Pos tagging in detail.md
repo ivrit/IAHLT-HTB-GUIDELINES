@@ -178,6 +178,7 @@ The PRON tag is given to several kinds of pronouns, including personal pronouns 
 -	הוא (incl. forms אני, את, הם…)
 -	זה
 -	כך
+- כן
 -	עצמו (note: not segmented, per HTB conventions)
 -	אותו (unsegmented and tagged PRON only in the sense the same one)
 -	זהו
