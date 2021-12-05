@@ -42,6 +42,19 @@ In the following section, we outline the morphological features for each POS tag
    </tr>
     <tr>
         <td></td>
+        <td></td>
+        <td>Dual</td>
+        <td>Only when the paradigm includes three values:
+שעה, שעתיים, שעות
+יום, יומיים, ימים
+דלת, דלתיים, דלתות
+If the paradigm includes two values, these values are sorted only to singular and plural:
+עין, עיניים/plur
+שן, שיניים/plur
+</td>     
+   </tr>
+    <tr>
+        <td></td>
         <td>Definite</td>
         <td>Cons</td>
         <td>Construct State Forms: ילדי הגן</td>
