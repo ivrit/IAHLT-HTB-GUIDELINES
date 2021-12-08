@@ -223,7 +223,7 @@ The following simple lemmas are allowed as SCONJ:
 -	במקום
 -	בטרם
 -	בעוד
--	ב, כ, מ
+-	מ
 -	משום, כיוון, מכיוון
 
 Note that in multiword expressions serving as SCONJ, constituent tokens will receive their regular POS tags, though they will be attached to the first token in the SCONJ expression with the deprel fixed.
