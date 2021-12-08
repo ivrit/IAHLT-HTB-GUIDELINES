@@ -139,14 +139,7 @@ tree
 -	Infinitival adverbials clause:
 
 tree
-
-This label is also used for participles that govern כ and ב, for example: כ+מתבקש, כ+מתחייב, ב+משתמע:
-
-`advcl`(_**predicate**_,mishtamea)
-
-`mark`(mishtamea,ka)
-
-Note that for adjectives which are not participles we use `obl` - see **obl**. (discuused on https://github.com/IAHLT/UD_Hebrew/issues/28)   
+  
 
 Typical advcl constructions are introduced by the following subordinators (not an exhaustive list; see also mark):
 
@@ -312,13 +305,11 @@ To distinguish between these last two variants (which are only confusable for PP
 
 The infelicity of the first example demonstrates that the modifier belongs in a single noun phrase with the noun מחווה, and therefore the usual adnominal nmod relation should be used.
 
-This label is also used for adjectives that govern `case`s as כ and ב, for example: כ+ראוי, כ+רגיל, ב+רגיל. When it is governed by a predicate the anaysis is:
+This label is also used for adjectives or verbs that govern `case`s as כ and ב, for example: כ+ראוי, כ+רגיל, ב+רגיל. When it is governed by a predicate the anaysis is:
 
 `obl`(**_predicate_**, ragil)
 
 `case`(ragil, ka)
-
-Note that for participles that govern כ and ב we use `advcl` - see **advcl** (Discussed on https://github.com/IAHLT/UD_Hebrew/issues/28).   
 
 Additionally, obl is used for the possessor in predicative possessives when the possessor is marked with ל (this is in fact not an exception, but rather an application of the normal rule that prepositional dependents of VERBs are labeled obl). The direct object, marked by את, is labeled obj (but note that indefinite plain existentials are labeled nsubj; see nsubj):
 
