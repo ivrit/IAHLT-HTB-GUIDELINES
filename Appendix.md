@@ -71,6 +71,41 @@ NEW:
 
 tree
 
+הוא פגש את אחד מעובדיו
+
+Deprels:
+
+obj(pagash, exad)
+
+nmod(exad, ovd)
+
+case(ovd, me)
+
+
+POS:
+exad/NUM (NumType=Card)
+
+Note that אחד העובדים is analyzed by the same logic - headed by אחד with compound to עובדים.
+
+tree
+
+This structure stands in contrast to cardinal structure. The cardinal number precedes the noun (e.g., שלושה עובדים), except for the number one which succeeds it (e.g., עובד אחד).
+
+tree
+
+nummod(oved, exad)
+
+exad/NUM (NumType=Card, Number=Sing, Gender=Masc)
+
+Pluralizing the cardinal אחד doesn’t change its deprel/POS (עובדים אחדים):
+
+tree
+
+nummod(ovdim, axadim)
+
+axadim/NUM (NumType=Card, Number=Plur, Gender=Masc)
+
+
 #### Removal of some subtypes
 As discussed, case subtypes such as case:gen and case:acc for של and את respectively were removed, as well as the subtype mark:q for האם and שמא.
 
