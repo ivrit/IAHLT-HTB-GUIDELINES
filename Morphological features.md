@@ -165,7 +165,8 @@ If the paradigm includes two values, these values are sorted only to singular an
         <td>PRON</td>
         <td>PronType</td>
         <td>Prs  </td>
-        <td>Personal Pronouns = היא, הם, אתן (Lemma: הוא) היא הודיעה כי הוועדה תגבש הצעת חוק בנושא העובדים הזרים.   Reflexive Pronouns (with ADP and in oblique position) = עצמה, עצמן, עצמכם (Lemma: עצמו) קשה להבין כיצד מנהיגים אלה לא שאלו את עצמם שאלה יסודית אחת.   As determiners, meaning the same one, morphologically similar to accusative pronouns, but unsegmented; Lemma:אותו ): היא מבוססת על אותו קרב המגננה שבו אירעו מעשי גבורה עילאיים, ועל קבלת החלטות קשות בתנאי קרב.  Other forms used as determiners meaning the whole/entire one (Lemma: כולו): למכבי תל אביב אין גם כיום שחקן שתמיד יצר את הפער בינו לליגה כולה.</td>
+        <td>Personal Pronouns = היא, הם, אתן (Lemma: הוא) היא הודיעה כי הוועדה תגבש הצעת חוק בנושא העובדים הזרים.   Reflexive Pronouns (with ADP and in oblique position) = עצמה, עצמן, עצמכם (Lemma: עצמו) קשה להבין כיצד מנהיגים אלה לא שאלו את עצמם שאלה יסודית אחת.   As determiners, meaning the same one, morphologically similar to accusative pronouns, but unsegmented; Lemma:אותו ): היא מבוססת על אותו קרב המגננה שבו אירעו מעשי גבורה עילאיים, ועל קבלת החלטות קשות בתנאי קרב.  Other forms used as determiners meaning the whole/entire one (Lemma: כולו): למכבי תל אביב אין גם כיום שחקן שתמיד יצר את הפער בינו לליגה כולה.
+(No PronType=Prs for copulas - כהונת מושל במדינה גדולה היא קרש קפיצה אל מרכז תשומת הלב הלאומית)</td>
     </tr>
     <tr>
         <td></td>
@@ -270,12 +271,6 @@ If the paradigm includes two values, these values are sorted only to singular an
         <td>Coreference with the subject: היא עשתה זאת בעצמה   Coreference with the object: הוא אמר לה לעשות זאת בעצמה   The emphatic pronouns also receive this value: הקרב עצמו נמשך שעות   No explicit reference (predicate-embedded): תראו בעצמכם.</td>
     </tr>
     <tr>
-        <td></td>
-        <td>Polarity</td>
-        <td>Pos</td>
-        <td>Pronominal Copulas  (No PronType=Prs): כהונת מושל במדינה גדולה היא קרש קפיצה אל מרכז תשומת הלב הלאומית.</td>
-    </tr>
-    <tr>
         <td>ADV</td>
         <td>Prefix</td>
         <td>Yes</td>
@@ -345,7 +340,7 @@ If the paradigm includes two values, these values are sorted only to singular an
         <td></td>
         <td>Polarity</td>
         <td>Pos</td>
-        <td>Forms of היה: המשבר במפרץ הפרסי לא היה נושא בחירות מרכזי באיובה.   The inflected forms of הִנֵּה (הינו, הינה, הינם, הינן): דיווח אמין הינו ערך יסודי חיוני ומקודש במשרד המשטרה.</td>
+        <td>The inflected forms of הִנֵּה (הינו, הינה, הינם, הינן): דיווח אמין הינו ערך יסודי חיוני ומקודש במשרד המשטרה.</td>
     </tr>
     <tr>
         <td></td>
@@ -551,7 +546,7 @@ If the paradigm includes two values, these values are sorted only to singular an
         <td></td>
         <td>Polarity</td>
         <td>Pos</td>
-        <td>As per the HTB convention, the various forms of to be (e.g., היה, יהיו) in existential meaning are tagged VERB, and receive this value: היו אנשים בעלי אמצעים שתרמו דרך קבע לפעילות של התנועה ולפעילות של הישיבה.   Forms of יש (existential): הם פשוט תהו, נזכר לנקובסקי, "למי יש רעיונות מעניינים?"</td>
+        <td>Forms of יש (existential): הם פשוט תהו, נזכר לנקובסקי, "למי יש רעיונות מעניינים?"</td>
     </tr>
     <tr>
         <td></td>
