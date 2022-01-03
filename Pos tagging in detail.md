@@ -299,3 +299,124 @@ The following are PUNCT and not SYM: “-” in “בית - דין” or in “-
 The category X is not used for syntactically integrated loanwords, even if they are spelled in foreign characters:
 
 -	אין לי מניות ב-SpaceX/PROPN
+
+
+#### obj or xcomp?
+
+Only transitive verbs can govern accusative objects (including forms that get the explicit definite accusative object because of colloquial-origin language changes – יש לי את ה..., בא לי את ה...). Middle and passive verbs don't govern objects: the middle is a reflexive category with the mention of only one argument (which is a syntactic subject – it comes no explicit syntactic object). In a passive clause what is usually expressed by the object (or sometimes another argument) is now expressed by the subject.
+
+
+The best way to check if a token is governed through `obj` is to apply the את ה... test:
+
+השאלה נשארה פתוחה
+
+*השאלה נשארה את הפתוחה
+
+
+If an element can’t be modified by את ה... and there is no possibility to rephrase the sentence to make it work, this is not an `obj`. In this particular case the deprel is `xcomp`(nishara, ptuxa). In xcomps, there is always an implicit secondary predication: in this example, the question is both that which remains and that which is open; in other words, פתוחה is a secondary predicate which also applies to the same subject, שאלה
+
+It should be noted that there are also active verbs that can fail this test:
+
+הוא מרגיש חולה
+
+*הוא מרגיש את החולה
+
+`xcomp`(margish, xole)
+
+Some dictionaries, like Even Shoshan, indicate if verbs are transitive or intransitive. They could be used as another auxiliary tool.
+
+
+#### ccomp or csubj[:pass]?
+
+While both `ccomp` and `csubj[:pass]` are often governed by speech or psych verbs which govern content clause arguments, `ccomp` is a clause in the object position, and `csubj` is actually in the subject position:
+
+Example for verbs that govern `obj` or `ccomp`:
+
+הוא אמר [את דברו] – `obj`(amar, dvar)
+
+הוא אמר [שמחירי הדלק עלו שוב] – `ccomp`(amar, alu)
+
+
+
+טענתי [טענות דומות] - `obj`(taanti, teanot)
+
+טענתי [שרוב הלקוחות שלי מרוצים] - `ccomp`(taanti, merutsim)
+
+
+
+היא ציינה [זאת] - `obj`(tsiena, zot)
+
+היא ציינה [שגישתו של שינדלר לבטהובן הייתה רומנטית מדי] - `ccomp`(tsiena, romantit)
+
+
+
+
+Example for verbs that govern `nsubj` or `csubj` or `csubj:pass`:
+
+ [קדיש] נאמר לרוב על ידי שליח הציבור– `nsubj:pass`(neemar, kadish)
+ 
+ עוד נאמר [כי מחירי הדלק עלו שוב] - `csubj:pass`(neemar, alu)
+ 
+ 
+ 
+[טענות דומות] נטענו בעבר - `nsubj:pass`(nitanu, teanot)
+
+נטען [שרוב לקוחות החברה מרוצים] - `csubj:pass`(nitaan, merutsim)
+
+
+
+
+בחוזה צוין [איסור על בעלי חיים] - `nsubj:pass`(tsuyan, isur)
+
+לעיתים קרובות צוין [שגישתו של שינדלר לבטהובן הייתה רומנטית מדי] - `cusbj:pass`(tsuyan, romantit)
+
+
+
+התבררה [התמונה המלאה] - `nsubj`(hitbarera, tmuna)
+
+התברר [שהמצב לא טוב] - `csubj`(hitbarer, tov)
+
+
+
+
+This table illustrate the relationship between `ccomp` governors and `csubj[:pass]` governors:
+|     `ccomp` governor    |     `csubj` or `csubj:pass` governor    |
+|-------------------------|-----------------------------------------|
+|     אמר ש...            |     נאמר ש...                           |
+|     כתב ש...            |     נכתב ש...                           |
+|     טען ש...            |     נטען ש...                           |
+|     דיווח ש...          |     דוּוח ש...                           |
+|     סיפר ש...           |     מסופר ש...                          |
+|     קבע ש...            |     נקבע ש...                           |
+|     ציין ש...           |     צוין ש...                           |
+|     סיכם ש...           |     סוּכם ש...                           |
+|     ראה ש...           |     נראה ש...                           |
+|     ידע ש..., הודיע ש...            |     נודע ש...                           |
+|     -                   |     התברר ש...                          |
+|     -                   |     נדמה ש...                           |
+
+#### Voice – Act or Mid?
+
+
+Middle voice refers to reflexive actions, but with the mention of only one argument (and no external agent implied). 
+
+התנועה התעכבה - middle
+
+התנועה עוכבה – passive
+
+In our scheme it refers also to reciprocal actions:
+
+הם התכתבו – middle
+
+הם כתבו אחד לשני – active
+
+Note that the semantic volition and stative verbs are not related to the voice issue. Active verbs can be unintentional in nature: ספג, נפל, נפל, מעד, קיבל  
+They can also be stative: חי, מת, ישב, עמד, שהה. (In our guidelines, בקצהו עומד מנזר "יוחנן במדבר" is an example of an active verb.)
+
+
+As for intransitive forms of HIFIL (הפשיר, האדים – הקרחונים הפשירו, הפנים האדימו), these forms are active since they are not reflexive – when we say הקרחונים הפשירו we don't mean the icebergs don't melt themselves or each other. The middle voice is marked by distinctive morphological forms, HITPAEL and NIFAL. Doron explained this in her article, תרומתו של הבניין למערכת הפועל:
+
+![image](https://user-images.githubusercontent.com/90029994/147973335-1f9d2e5a-10db-4b0a-a5af-095a83fd8f3f.png)
+
+![image](https://user-images.githubusercontent.com/90029994/147973349-266f40ce-222f-4b0f-a6ee-6d849ba9ffc1.png)
+![image](https://user-images.githubusercontent.com/90029994/147973359-5d092f05-03ff-4b75-80a6-e9b5c6cc22e8.png)
