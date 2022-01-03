@@ -724,6 +724,104 @@ Nesting predicates in which a copula construction predicates a second predicatio
 
 tree
 
+
+
+### Confusing cases
+
+#### obj or xcomp?
+
+Only transitive verbs can govern accusative objects (including forms that get the explicit definite accusative object because of colloquial-origin language changes – יש לי את ה..., בא לי את ה...). Middle and passive verbs don't govern objects: the middle is a reflexive category with the mention of only one argument (which is a syntactic subject – it comes no explicit syntactic object). In a passive clause what is usually expressed by the object (or sometimes another argument) is now expressed by the subject.
+
+
+The best way to check if a token is governed through `obj` is to apply the את ה... test:
+
+השאלה נשארה פתוחה
+
+*השאלה נשארה את הפתוחה
+
+
+If an element can’t be modified by את ה... and there is no possibility to rephrase the sentence to make it work, this is not an `obj`. In this particular case the deprel is `xcomp`(nishara, ptuxa). In xcomps, there is always an implicit secondary predication: in this example, the question is both that which remains and that which is open; in other words, פתוחה is a secondary predicate which also applies to the same subject, שאלה
+
+It should be noted that there are also active verbs that can fail this test:
+
+הוא מרגיש חולה
+
+*הוא מרגיש את החולה
+
+`xcomp`(margish, xole)
+
+Some dictionaries, like Even Shoshan, indicate if verbs are transitive or intransitive. They could be used as another auxiliary tool.
+
+
+#### ccomp or csubj[:pass]?
+
+While both `ccomp` and `csubj[:pass]` are often governed by speech or psych verbs which govern content clause arguments, `ccomp` is a clause in the object position, and `csubj` is actually in the subject position:
+
+Example for verbs that govern `obj` or `ccomp`:
+
+הוא אמר [את דברו] – `obj`(amar, dvar)
+
+הוא אמר [שמחירי הדלק עלו שוב] – `ccomp`(amar, alu)
+
+
+
+טענתי [טענות דומות] - `obj`(taanti, teanot)
+
+טענתי [שרוב הלקוחות שלי מרוצים] - `ccomp`(taanti, merutsim)
+
+
+
+היא ציינה [זאת] - `obj`(tsiena, zot)
+
+היא ציינה [שגישתו של שינדלר לבטהובן הייתה רומנטית מדי] - `ccomp`(tsiena, romantit)
+
+
+
+
+Example for verbs that govern `nsubj` or `csubj` or `csubj:pass`:
+
+ [קדיש] נאמר לרוב על ידי שליח הציבור– `nsubj:pass`(neemar, kadish)
+ 
+ עוד נאמר [כי מחירי הדלק עלו שוב] - `csubj:pass`(neemar, alu)
+ 
+ 
+ 
+[טענות דומות] נטענו בעבר - `nsubj:pass`(nitanu, teanot)
+
+נטען [שרוב לקוחות החברה מרוצים] - `csubj:pass`(nitaan, merutsim)
+
+
+
+
+בחוזה צוין [איסור על בעלי חיים] - `nsubj:pass`(tsuyan, isur)
+
+לעיתים קרובות צוין [שגישתו של שינדלר לבטהובן הייתה רומנטית מדי] - `cusbj:pass`(tsuyan, romantit)
+
+
+
+התבררה [התמונה המלאה] - `nsubj`(hitbarera, tmuna)
+
+התברר [שהמצב לא טוב] - `csubj`(hitbarer, tov)
+
+
+
+
+This table illustrate the relationship between `ccomp` governors and `csubj[:pass]` governors:
+|     `ccomp` governor    |     `csubj` or `csubj:pass` governor    |
+|-------------------------|-----------------------------------------|
+|     אמר ש...            |     נאמר ש...                           |
+|     כתב ש...            |     נכתב ש...                           |
+|     טען ש...            |     נטען ש...                           |
+|     דיווח ש...          |     דוּוח ש...                           |
+|     סיפר ש...           |     מסופר ש...                          |
+|     קבע ש...            |     נקבע ש...                           |
+|     ציין ש...           |     צוין ש...                           |
+|     סיכם ש...           |     סוּכם ש...                           |
+|     ראה ש...           |     נראה ש...                           |
+|     ידע ש..., הודיע ש...            |     נודע ש...                           |
+|     -                   |     התברר ש...                          |
+|     -                   |     נדמה ש...                           |
+
 ### Open Questions
 Please list new annotation questions in this section AND add a comment, mentioning each person who should chime in on this using “@” (so those people get a notification to answer):
 -	Example: should a Hindi word in a sentence be tagged as X? 
