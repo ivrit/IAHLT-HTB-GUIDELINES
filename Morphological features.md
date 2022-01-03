@@ -1001,3 +1001,35 @@ We indicate the correct form of a token, wherever the data contain an incorrect 
 #### Uncertain
 When we are not sure of a feature we assigned to a token, or the choice of a POS tag, we should assign the feature Uncertain=Yes under Misc Features. 
 
+
+### Confusing cases
+
+#### Voice – Act or Mid?
+
+
+Middle voice refers to reflexive actions, but with the mention of only one argument (and no external agent implied). 
+
+התנועה התעכבה - middle
+
+התנועה עוכבה – passive
+
+In our scheme it refers also to reciprocal actions:
+
+הם התכתבו – middle
+
+הם כתבו אחד לשני – active
+
+Note that the semantic volition and stative verbs are not related to the voice issue. 
+
+Active verbs can be unintentional in nature: ספג, נפל, נפל, מעד, קיבל  
+
+
+They can also be stative: חי, מת, ישב, עמד, שהה.
+
+
+As for intransitive forms of HIFIL (הפשיר, האדים – הקרחונים הפשירו, הפנים האדימו), these forms are active since they are not reflexive – when we say הקרחונים הפשירו we don't mean the icebergs don't melt themselves or each other. The middle voice is marked by distinctive morphological forms, HITPAEL and NIFAL. Doron explained this in her article, תרומתו של הבניין למערכת הפועל:
+
+![image](https://user-images.githubusercontent.com/90029994/147973335-1f9d2e5a-10db-4b0a-a5af-095a83fd8f3f.png)
+
+![image](https://user-images.githubusercontent.com/90029994/147973349-266f40ce-222f-4b0f-a6ee-6d849ba9ffc1.png)
+![image](https://user-images.githubusercontent.com/90029994/147973359-5d092f05-03ff-4b75-80a6-e9b5c6cc22e8.png)
