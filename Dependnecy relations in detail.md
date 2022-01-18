@@ -587,6 +587,30 @@ tree
 
 tree
 
+This label is also used for left-headed compound adjectives:
+
+מאכל מזרח תיכוני
+
+`amod`(maaxal, tixoni)
+
+`compound`(tixoni, mizrax)
+
+Definite=Cons should be assign for those cases that are underlyingly smixut:
+
+נוף בית ספרי
+
+`amod`(nof, sifri)
+
+`compound`(sifri, beit) BEIT\Definite=Cons
+
+If the dependent is originally a PROPN (Tel Aviv - PROPN + PROPN) it should be tagged PROPN:
+
+הטרילוגיה התל אביבית
+
+`amod`(trilogia, avivit)
+
+`compound`(abibit, tel) TEL\PROPN
+
 #### conj
 
 This label is given to the head of each coordinate conjunct after the first in a coordination. All non-initial conjuncts are attached to the initial one, creating a ‘fountain’ shape, rather than a chain - in “A, B and C”, both B and C will be attached to A. Any coordinating conjunctions will be attached to their conjunct heads as cc. Examples:
