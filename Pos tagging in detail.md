@@ -119,6 +119,11 @@ List of single token prepositions:
 |     נגד      |     נוכח                                                     |     סביב       |     עד       |     על       |
 |     עם       |     ע"ש                                                      |     פי         |     של       |     תוך      |
 
+Newly approved ADPs are:
+
+-	בעטי-(ו\ה\ן\ם\י) 
+
+
 In complex prepositions, components derived from other POS tags retain their original tags, while the entire expression is attached using the deprel case.
 
 tree
