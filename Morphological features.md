@@ -165,8 +165,7 @@ If the paradigm includes two values, these values are sorted only to singular an
         <td>PRON</td>
         <td>PronType</td>
         <td>Prs  </td>
-        <td>Personal Pronouns = היא, הם, אתן (Lemma: הוא) היא הודיעה כי הוועדה תגבש הצעת חוק בנושא העובדים הזרים.   Reflexive Pronouns (with ADP and in oblique position) = עצמה, עצמן, עצמכם (Lemma: עצמו) קשה להבין כיצד מנהיגים אלה לא שאלו את עצמם שאלה יסודית אחת.   As determiners, meaning the same one, morphologically similar to accusative pronouns, but unsegmented; Lemma:אותו ): היא מבוססת על אותו קרב המגננה שבו אירעו מעשי גבורה עילאיים, ועל קבלת החלטות קשות בתנאי קרב.  Other forms used as determiners meaning the whole/entire one (Lemma: כולו): למכבי תל אביב אין גם כיום שחקן שתמיד יצר את הפער בינו לליגה כולה.
-(No PronType=Prs for copulas - כהונת מושל במדינה גדולה היא קרש קפיצה אל מרכז תשומת הלב הלאומית)</td>
+        <td>Personal Pronouns = היא, הם, אתן (Lemma: הוא) היא הודיעה כי הוועדה תגבש הצעת חוק בנושא העובדים הזרים.   Reflexive Pronouns (with ADP and in oblique position) = עצמה, עצמן, עצמכם (Lemma: עצמו) קשה להבין כיצד מנהיגים אלה לא שאלו את עצמם שאלה יסודית אחת.   As determiners, meaning the same one, morphologically similar to accusative pronouns, but unsegmented; Lemma:אותו ): היא מבוססת על אותו קרב המגננה שבו אירעו מעשי גבורה עילאיים, ועל קבלת החלטות קשות בתנאי קרב.  Other forms used as determiners meaning the whole/entire one (Lemma: כולו): למכבי תל אביב אין גם כיום שחקן שתמיד יצר את הפער בינו לליגה כולה.</td>
     </tr>
     <tr>
         <td></td>
