@@ -507,7 +507,9 @@ If the paradigm includes two values, these values are sorted only to singular an
         <td></td>
         <td>Mood</td>
         <td>Imp</td>
-        <td>Reserved for Imperatives, which in Hebrew appear only in the 2nd person (sing or plur), e.g. קח אותו החוצה. צאו לטייל ברחבי הארץ. תן לי את הלחם.</td>
+        <td>Reserved for Imperatives, which in Hebrew appear only in the 2nd person (sing or plur), e.g. קח אותו החוצה. צאו לטייל ברחבי הארץ. תן לי את הלחם. Also for Negative Impertives: these forms are actually allomorphs of imperative in the environment following אל, (even though they are identical to Tense=Fut, Mood=Imp is assign to them instead of Tense=fut):
+אל תלך
+אל תיגע בזה</td>
     </tr>
     <tr>
         <td></td>
