@@ -182,6 +182,15 @@ If the paradigm includes two values, these values are sorted only to singular an
     <tr>
         <td></td>
         <td></td>
+        <td>Rel  </td>
+        <td>Free relative constructions:
+**מי** שלא לוקח סיכונים, מפסיד.
+**מה** שלא הורג מחשל.
+הוא זוכר **מי** פנה אליו (=הוא זוכר את מי שפנה אליו).</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
         <td>Ind  </td>
         <td>Indefinite Pronouns = כלשהו, איזושהי   במאה הזו נבחרו שני סנאטורים לנשיאים, ושלושה נשיאים אחרים כיהנו בסנאט בזמן כלשהו של הקריירה שלהם .   אין ספק כי יש כאן איזושהי אמירה מטאפיסית של היקום על מות האמת.</td>
     </tr>
@@ -271,6 +280,19 @@ If the paradigm includes two values, these values are sorted only to singular an
     </tr>
     <tr>
         <td>ADV</td>
+        <td>PronType</td>
+        <td>Int</td>
+        <td>Interrogative Pro-Adverbs: איך יראה התוצר הסופי? מתי נגיע הביתה?</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>Rel  </td>
+        <td>Free Relative Constructions: אני יודעת איך יראה התוצר הסופי
+(אני יודעת את הדרך שבה יראה התוצר הסופי)
+</td>
+<tr>
+        <td></td>
         <td>Prefix</td>
         <td>Yes</td>
         <td>Modifying an ADJ: דו-קוטבי, תלת-ספרתי, רב-לאומית ADV: חד-חד-ערכי  VERB: אי אפשר Noun: אנטי-קומוניסט, מולטי-מיליונר</td>
