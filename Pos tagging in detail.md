@@ -168,12 +168,44 @@ The following lemmas may be tagged as CCONJ:
 
 #### DET
 
-The tag DET is given to determiners which specify (in)definiteness (ה, כמה) or quantification (כל, הרבה) for a single noun phrase, usually attached as det. The following lemmas may serve as DET:
--	ה
--	כל, כמה, מִדֵי ('מִדֵי יום')
--	רוב, שאר, הרבה 
--	אף, שום
--	מספיק, מספר
+The tag DET is given to determiners which specify (in)definiteness (ה, כמה) or quantification (כל, הרבה) for a single noun phrase, usually attached as det. The relevant features have been added in parenthesis. The following lemmas serve as DET in Hebrew:
+-	ה (PronType=Art, Definite=Def)
+- מדי (מִדֵי)
+-	כל/כול (PronType=Tot)
+-	אף, שום (PronType=Neg)
+-	עוד
+-	יותר
+-	פחות
+-	קצת
+-	המון (הרבה Only when it substitutes for) 
+-	הרבה
+-	די (דֵי)
+-	אי (אֵי) - (PronType=Ind)
+-	מספיק
+-	כמה
+
+These lemmas inflect for Gender and Number, as follows:
+-	איזה (PronType=Int), איזו, אילו (Incorrect Spelling: אלו)
+-	איזה/איזשהו (PronType=Ind), איזושהי
+
+The following lemmas may not serve as DET in Hebrew:
+-	רוב (Incorrect Spelling: רב)
+-	מרבית
+-	כמות
+-	מינֵי
+-	עיקר
+-	מיטב
+-	מחצית
+-	שארית
+-	יתר
+-	חלק
+-	שאר
+-	מספר
+-	מיעוט
+-	כלל
+-	מרב (Incorrect Spelling: מירב)
+-	מקצת 
+
 
 Note that those items which can appear in construct or absolute state, the absolute state rendition implies separate noun phrases for the quantifier and the quantified phrase. In keeping with other corpora, DET items are still tagged DET in such cases, but are no longer given the deprel det, i.e. הרבה תלמידים is det, but הרבה מהתלמידים is regular PP modification (nmod). In both cases, הרבה is tagged DET.
 
@@ -185,6 +217,7 @@ The PRON tag is given to several kinds of pronouns, including personal pronouns 
 -	זה
 -	כך
 - כן
+- כולו (unsegmented and tagged PRON only in the sense the entire one with deprel det, and as a floating quantifier with deprel obl:npmod)
 -	עצמו (note: not segmented, per HTB conventions)
 -	אותו (unsegmented and tagged PRON only in the sense the same one)
 -	זהו
@@ -224,6 +257,9 @@ The following simple lemmas are allowed as SCONJ:
 -	כפי, ככל, כשם
 -	אם, לו, אילו, לולא
 -	שמא
+-	שכן
+-	בלי, מבלי
+-	כדי
 -	באם, האם
 -	כש, מש, לכש, כאשר
 -	ו' (במקרה ו... הלוואי ו... ייתכן ו...)
