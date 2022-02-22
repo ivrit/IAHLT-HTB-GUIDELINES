@@ -564,7 +564,7 @@ tree
 
 This label is used for a set of prefixes forming complex words, but only when they are spelled apart. Some essential prefixes are:
 
--	בין, תת, דו, חד, תלת, פרו, קדם, אנטי, סופר, נאו, מולטי, מיני, אקס, כלל, פוסט, טרום, כל/כול, היפר, היפו, על, רב, פרה
+-	בין, תת, דו, חד, תלת, פרו, קדם, אנטי, סופר, נאו, מולטי, מיני, אקס, כלל, פוסט, טרום, כל/כול, היפר, היפו, על, רב, פרה, אין
 
 Some rarer prefixes can appear in more technical/specific contexts, and should be applied the Prefix=Yes feature, if the compound:affix deprel is appropriate. 
 The above list is therefore not an exhaustive one.
