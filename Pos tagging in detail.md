@@ -190,7 +190,8 @@ The tag DET is given to determiners which specify (in)definiteness (ה, כמה) 
 
 These lemmas inflect for Gender and Number, as follows:
 -	איזה (PronType=Int), איזו, אילו (Incorrect Spelling: אלו)
--	איזה/איזשהו (PronType=Ind), איזושהי
+-	איזה/איזשהו (PronType=Ind), איזושהי, (איזשהם, איזשהן)
+-	כלשהו (PronType=Ind), כלשהי, כלשהם, כלשהן
 
 The following lemmas may not serve as DET in Hebrew:
 -	רוב (Incorrect Spelling: רב)
