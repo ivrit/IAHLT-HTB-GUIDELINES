@@ -169,6 +169,7 @@ The following lemmas may be tagged as CCONJ:
 -	אך, אבל, אולם
 -	או, ו
 -	אלא (לא X אלא Y)
+-	בין (בין אם X ובין אם Y; בין ש X ובין ש Y)
 
 #### DET
 
