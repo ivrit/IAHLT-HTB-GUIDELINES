@@ -277,6 +277,7 @@ The following simple lemmas are allowed as SCONJ:
 -	מ
 -	מאז
 -	משום, כיוון, מכיוון
+-	לולא, אלמלא, אילולא (Polarity=Neg)
 
 Note that in multiword expressions serving as SCONJ, constituent tokens will receive their regular POS tags, though they will be attached to the first token in the SCONJ expression with the deprel fixed.
 
