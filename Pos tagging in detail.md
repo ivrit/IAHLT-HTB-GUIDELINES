@@ -231,9 +231,7 @@ The PRON tag is given to several kinds of pronouns, including personal pronouns 
 -	זהו
 -	מי
 -	מה
--	כלשהו
 -	דנן
--	איזה
 
 Note that the word כךis tagged as PRON only when it is accompanied by a preposition; when appearing by itself, it is tagged ADV. The pronominal adverbs, incl. Interrogatives, are tagged ADV (איכשהו, איפשהו, מתי, איך, איפה)
 
@@ -272,7 +270,7 @@ The following simple lemmas are allowed as SCONJ:
 -	כש, מש, לכש, כאשר
 -	ו' (במקרה ו... הלוואי ו... ייתכן ו...)
 -	במקום
--	בטרם
+-	בטרם, טרם
 -	בעוד
 -	מ
 -	מאז
