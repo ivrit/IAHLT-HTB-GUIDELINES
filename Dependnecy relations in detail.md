@@ -842,6 +842,69 @@ This table illustrate the relationship between `ccomp` governors and `csubj[:pas
 |     -                   |     התברר ש...                          |
 |     -                   |     נדמה ש...                           |
 
+#### AUX+aux or AUX+cop?
+
+As per issue https://github.com/IAHLT/UD_Hebrew/issues/48, the following tagging, features and deprel should be followed:
+
+- If we have אינו/הינו before nominal predicates (NOUN, ADJ), the upos is AUX, the deprel cop, 
+and the features are as follows (AUX+cop):
+
+Gender=Masc, Number=Sing, Person=3, Polarity=Neg, VerbType=Cop, lemma=אינו
+
+Gender=Masc, Number=Sing, Person=3, Polarity=Pos, VerbType=Cop, lemma=הינו
+
+Examples:
+
+אנשים שאינם עובדי חברות כוח אדם
+
+אנשים שהינם עובדי חברות כוח אדם
+
+
+
+
+
+
+- If we have אינו/הינו before VERB and AUX (modals), the upos is AUX, the deprel aux, 
+and the features are as follows (AUX+aux):
+
+Gender=Masc, Number=Sing, Person=3, Polarity=Neg, Tense=Pres, lemma=אינו
+
+Gender=Masc, Number=Sing, Person=3, Polarity=Pos, Tense=Pres, lemma=הינו
+
+Examples:
+
+העובדים אינם מועסקים בחברות כוח אדם
+
+העובדים הינם מועסקים בחברות כוח אדם
+
+העובדים אינם צריכים להגיש את המסמכים הבאים
+
+העובדים הינם צריכים להגיש את המסמכים הבאים
+
+
+
+
+- If we have להיות from lemma היה before nominal predicates (NOUN, ADJ), the upos is AUX, the deprel cop, 
+and the features are as follows (AUX+cop):
+
+HebBinyan=PAAL, VerbForm=Inf, VerbType=Cop, lemma=היה
+
+Example:
+
+העובדים היו אמורים להיות במקום העבודה
+
+
+- If we have להיות from lemma היה before VERB, the upos is AUX, the deprel aux, 
+and the features are as follows (AUX+aux):
+
+HebBinyan=PAAL, VerbForm=Inf, lemma=היה
+
+Example:
+
+העובדים היו אמורים להיות מוזמנים לוועדה
+
+
+
 ### Open Questions
 Please list new annotation questions in this section AND add a comment, mentioning each person who should chime in on this using “@” (so those people get a notification to answer):
 -	Example: should a Hindi word in a sentence be tagged as X? 
