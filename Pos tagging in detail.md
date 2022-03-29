@@ -130,6 +130,32 @@ List of single token prepositions:
 |                            קודם   (במשמעות לפני; "קודם כול" =     "לפני   הכול")                                |                             של                                                                                  |                                                                תוך                                                |                              תמורת                                                                               |                    
 
 
+
+As per https://github.com/IAHLT/UD_Hebrew/issues/14, The tokens כולל, לרבות (including) and למעט, להוציא (excluding) are analyzed as VERB
+
+with the deprel case in the following syntactic environment:
+
+החברה תהיה רשאית להפסיק את שירותי האתר או חלק מהם בכל עת, לרבות/כולל (את) התכנים.
+
+החברה אינה רשאית להפסיק את שירותי האתר, למעט/להוציא (את) התכנים בתשלום.
+
+
+The optional et (את) demonstrates that these tokens are not controlling the object following them,
+and therefore, the below analyis applies:
+
+nmod(sherutey, txanim)
+
+case(txanim, et)
+
+case(txanim, lerabot/kolel)
+
+
+nmod(sherutey, txanim)
+
+case(txanim, et)
+
+case(txanim, lema'et/lehotsi)
+
 In complex prepositions, components derived from other POS tags retain their original tags, while the entire expression is attached using the deprel case.
 
 tree
