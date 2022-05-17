@@ -108,6 +108,10 @@ The label ccomp is used for complement clauses, often of speech or psych verbs w
 tree
 
 This label is not used for complement clauses of nominals (e.g. deverbal nouns) which are instead labeled acl (see acl).
+ccomp is also used for mid and pass verbs, but not in the subject position (see csubj).
+
+Note: when the object position is already saturated, we cannot tag an objectival ccomp again.
+This has limited consequences, e.g. שם לב כי זה קרה since lev is obj, we tag the clause advcl.
 
 #### xcomp
 
@@ -816,7 +820,7 @@ Some dictionaries, like Even Shoshan, indicate if verbs are transitive or intran
 
 #### ccomp or csubj[:pass]?
 
-While both `ccomp` and `csubj[:pass]` are often governed by speech or psych verbs which govern content clause arguments, `ccomp` is a clause in the object position, and `csubj` is actually in the subject position:
+While both `ccomp` and `csubj[:pass]` are often governed by speech or psych verbs which govern content clause arguments, `ccomp` is a content clause, mostly in the object position, and `csubj` is actually in the subject position, when used in the impersonal (i.e. no further subject position is saturated - הוא שוכנע כי אין צורך is ccomp):
 
 Example for verbs that govern `obj` or `ccomp`:
 
@@ -839,7 +843,9 @@ Example for verbs that govern `obj` or `ccomp`:
 
 
 
-Example for verbs that govern `nsubj` or `csubj` or `csubj:pass`:
+Example for verbs that govern `nsubj` or `csubj` or `csubj:pass` (which are impersonal):
+
+Note: in contrast to the next two examples, there are cases that aren’t impersonal and have a clause. Since the subject position is saturated (הוא שוכנע שמחירי הדלק יעלו) ccomp is used for the clause, even though it is not in the traditional object position (passive verbs don’t have objects).
 
  [קדיש] נאמר לרוב על ידי שליח הציבור– `nsubj:pass`(neemar, kadish)
  
@@ -866,8 +872,7 @@ Example for verbs that govern `nsubj` or `csubj` or `csubj:pass`:
 
 
 
-
-This table illustrate the relationship between `ccomp` governors and `csubj[:pass]` governors:
+Illustrating the relationship between `ccomp` governors and impersonal `csubj[:pass]` governors:
 |     `ccomp` governor    |     `csubj` or `csubj:pass` governor    |
 |-------------------------|-----------------------------------------|
 |     אמר ש...            |     נאמר ש...                           |
