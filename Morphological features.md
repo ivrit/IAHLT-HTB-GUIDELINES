@@ -942,7 +942,7 @@ Active → PAAL, PIEL, HIFIL
 
 היא הודיעה כי הוועדה תגבש הצעת חוק בנושא העובדים הזרים.
 
-Middle → NIFAL (often reciprocal, but may also be passive), HITPAEL (often in reflexive meaning, but may also be active)
+Middle → NIFAL (often reciprocal, but may also be passive), HITPAEL (often in reflexive meaning, but may also be active), NITPAEL (similar to HITPAEL, but not identical, used in some more formal occasions)
 בייקר נפגש אתמול עם נשיא צרפת.
 הוא התגלח והתארגן לפני שיצא לעבודתו. 
 
