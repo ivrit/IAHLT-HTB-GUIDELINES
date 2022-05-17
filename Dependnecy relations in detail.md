@@ -357,7 +357,7 @@ tree
 
 This label is used to tag any oblique not mediated by a preposition (as well as obl:desc until it is implemented). The nominal equivalent is nmod:npmod. These tend to be adverbial, but also nominal and adjectival.
 
-obj or obl:npmod?
+#### obj or obl:npmod?
 
 Some את marker mediated words aren’t actual objects, but are cognate objects (מושא פנימי).
 Sometimes appearing in pairs (i.e. one true object, one cognate), the distinction between a cognate object (obl:npmod), and a true object (obj), can further determine if we tag iobj or obj (iobj is only tagged when another obj appears, if it’s obl:npmod, the counterpart is a plain obj).
