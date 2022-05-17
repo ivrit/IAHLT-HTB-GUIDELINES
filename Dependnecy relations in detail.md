@@ -67,7 +67,7 @@ Note: cognate objects (מושא פנימי) are not to be tagged as such, but wi
 
 לימדתי את משה את הלימוד  -  halimud is cognate, and is obl:npmod, so moshe is obj. npmod,obj
 
-These constructs are quite peculiar to Hebrew (and other languages) and behave a bit differently than regular objects, more of an echo or emphasis to the subject, i.e. they should not be treated as true objects, as conflicting with regular syntax theory that two direct objects are impossible. Further discussion is here.
+These constructs are quite peculiar to Hebrew (and other languages) and behave a bit differently than regular objects, more of an echo or emphasis to the subject, i.e. they should not be treated as true objects, as conflicting with regular syntax theory that two direct objects are impossible. Further discussion is here - https://github.com/UniversalDependencies/docs/issues/832.
 
 For guidelines for distinguishing obj, obl:npmod from plain obj, iobj, see obl:npmod section.
 
@@ -374,12 +374,12 @@ Transitives, though, are prone to mark objects by nature, and it’s harder to d
 
 I baked the bread a thorough baking - It’s easy to see a thorough baking is its own NP.
 In שאלתי אותו שאלה חשובה - again שאלתי already conveys שאלה, which is standalone.
-In האכלתי תינוקות דייסה\מאכל טעים it seems an obj,iobj case, but דייסה,מאכל טעים are standalone unrequired additions to “fed”, and can be mediated by a preposition במאכל טעים, בדייסה, which just happen to be in the object position, true for the definite האכלתי את התינוק את הדיסה as well.
 
-On the other hand, לימדתי אותו את השיר, while seems similar (השיר an unrequired addition to לימדתי) - is not the case. Here we find both true objects, therefore a true obj, iobj case.
-The complement is השיר, a true object which cannot be mediated by a preposition, nor can אותו.
+In האכלתי תינוקות דייסה it seems an obj,iobj case, as both are arguments truly licensed in a special way by the verb’s valency, not being able to be added to just everything.
+Such is the case with לימדתי אותו את השיר, while may seem השיר is an unrequired addition to לימדתי - it’s not the case. Both are again true objects, therefore a true obj, iobj case.
+The complement is השיר, a truly valent object by its verb, not standalone, as well as אותו.
 
-See iobj section for additional discussion.
+See iobj section for additional discussion, as well as here - https://github.com/IAHLT/UD_Hebrew/issues/63#issuecomment-1126328193 and here - https://github.com/UniversalDependencies/docs/issues/832.
 
 #### vocative
 
