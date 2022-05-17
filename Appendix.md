@@ -39,6 +39,8 @@ Note that adding the features on prepositions, rather than nouns, is consistent 
 -	Lemma of הכול was consistently wrong as ‘הכיל’, fixed to be itself
 -	All cardinal numbers lemmatized to unmarked feminine form
 -	All demonstrative pronouns lemmatized to זה except זהו/זוהי (lemma=זהו) and הללו (lemma=הללו, since it is not segmented, but actually corresponds to הזה, which is segmented, and not to זה)
+-	We tend not to assign historical\non productive lemmas, so defective forms like יתכן or even עלול, are יתכן, עלול and not נתכן, עלל.
+
 
 #### POS tags
 -	HTB oddly annotates the interrogative pronouns מי and מה as ADV, except for the forms מיהו and מהו which are lemmatized to מי and מה but tagged PRON. These forms receive normal grammatical function labels, such as nsubj or obj, and it is not clear why they should be considered adverbs – they were therefore changed to be PRON whenever they do not have the deprel advmod.
