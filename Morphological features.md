@@ -619,6 +619,12 @@ If the paradigm includes two values, these values are sorted only to singular an
         <td>HITPAEL</td>
         <td>כך או כך, שמו של בורחס יצטרף מעתה לרשימה הארוכה של הסופרים שהפרס נמנע מהם.</td>
     </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>NITPAEL</td>
+        <td></td>
+    </tr>
 </table>
 
 ### Nominal Features
