@@ -373,10 +373,13 @@ Thus even הוא רץ את הריצה המהירה mediated by את, is a cognat
 Transitives, though, are prone to mark objects by nature, and it’s harder to distinguish a true, dependant, complement like object, from a standalone addition in the object position (cognate). 
 
 I baked the bread a thorough baking - It’s easy to see a thorough baking is its own NP.
+
 In שאלתי אותו שאלה חשובה - again שאלתי already conveys שאלה, which is standalone.
 
 In האכלתי תינוקות דייסה it seems an obj,iobj case, as both are arguments truly licensed in a special way by the verb’s valency, not being able to be added to just everything.
+
 Such is the case with לימדתי אותו את השיר, while may seem השיר is an unrequired addition to לימדתי - it’s not the case. Both are again true objects, therefore a true obj, iobj case.
+
 The complement is השיר, a truly valent object by its verb, not standalone, as well as אותו.
 
 See iobj section for additional discussion, as well as here - https://github.com/IAHLT/UD_Hebrew/issues/63#issuecomment-1126328193 and here - https://github.com/UniversalDependencies/docs/issues/832.
