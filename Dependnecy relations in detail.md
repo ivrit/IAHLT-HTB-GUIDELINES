@@ -54,6 +54,22 @@ Note that pronominal objects with forms of את + suffix pronouns are analyzed i
 tree
 
 Additionally, accusative marked objects of the possessive construction are marked with the obj relation, unlike indefinite existentials which are labeled nsubj (see nsubj for יש + noun phrase).
+#### iobj
+The iobj label is used very sparingly, since Hebrew doesn’t incorporate a clear indirect object marking, which is usually mediated by a preposition (obl). 
+It is marked in some limited usage, with the same object position marker את, only when the regular object position itself is also marked (i.e. only when there is another object or ccomp):
+
+לימדתי אותו את השיר   -  Since the direct object position is saturated, we mark the indirect as iobj
+
+לימדתי את משה שאין מה לעשות לגבי זה the clausal ccomp in the object position,the PN in the iobj
+
+
+Note: cognate objects (מושא פנימי) are not to be tagged as such, but with obl:npmod:
+
+לימדתי את משה את הלימוד  -  halimud is cognate, and is obl:npmod, so moshe is obj. npmod,obj
+
+These constructs are quite peculiar to Hebrew (and other languages) and behave a bit differently than regular objects, more of an echo or emphasis to the subject, i.e. they should not be treated as true objects, as conflicting with regular syntax theory that two direct objects are impossible. Further discussion is here.
+
+For guidelines for distinguishing obj, obl:npmod from plain obj, iobj, see obl:npmod section.
 
 #### csubj
 
@@ -336,6 +352,30 @@ tree
 Note that temporal modifiers with prepositions are regular obl, and that temporal moidifiers of nominals (NOUN, NUM) are nmod:tmod:
 
 tree
+
+#### obl:npmod
+
+This label is used to tag any oblique not mediated by a preposition (as well as obl:desc until it is implemented). The nominal equivalent is nmod:npmod. These tend to be adverbial, but also nominal and adjectival.
+
+obj or obl:npmod?
+
+Some את marker mediated words aren’t actual objects, but are cognate objects (מושא פנימי).
+Sometimes appearing in pairs (i.e. one true object, one cognate), the distinction between a cognate object (obl:npmod), and a true object (obj), can further determine if we tag iobj or obj (iobj is only tagged when another obj appears, if it’s obl:npmod, the counterpart is a plain obj).
+
+For intransitives, consider הוא רץ ריצה מהירה. The “fast running” is already implied by “ran”, and so “fast running” is a kind of addition for emphasis, which happens to be in an object position.
+It is not truly dependant on “ran”, and can be its own NP - הוא רץ, [זו] ריצה מהירה with no problem.
+Thus even הוא רץ את הריצה המהירה mediated by את, is a cognate object, tagged obl:npmod.
+
+Transitives, though, are prone to mark objects by nature, and it’s harder to distinguish a true, dependant, complement like object, from a standalone addition in the object position (cognate). 
+
+I baked the bread a thorough baking - It’s easy to see a thorough baking is its own NP.
+In שאלתי אותו שאלה חשובה - again שאלתי already conveys שאלה, which is standalone.
+In האכלתי תינוקות דייסה\מאכל טעים it seems an obj,iobj case, but דייסה,מאכל טעים are standalone unrequired additions to “fed”, and can be mediated by a preposition במאכל טעים, בדייסה, which just happen to be in the object position, true for the definite האכלתי את התינוק את הדיסה as well.
+
+On the other hand, לימדתי אותו את השיר, while seems similar (השיר an unrequired addition to לימדתי) - is not the case. Here we find both true objects, therefore a true obj, iobj case.
+The complement is השיר, a true object which cannot be mediated by a preposition, nor can אותו.
+
+See iobj section for additional discussion.
 
 #### vocative
 
