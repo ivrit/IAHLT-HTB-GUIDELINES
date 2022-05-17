@@ -1,6 +1,6 @@
 ## Dependency Relations in Detail
 ### Core Arguments
-Our annotation guidelines encompass all UD core argument relation types except for iobj (not used), since Hebrew does not have core marking for indirect objects (recipients and similar arguments are mediated by the preposition ל and are therefore attached regularly as obl. 
+Our annotation guidelines encompass all UD core argument relation types. iobj is rare (formerly unused), since Hebrew does not have core marking for indirect objects, but can rarely use the object marker et (recipients and similar arguments are mostly mediated by the preposition ל and are therefore attached regularly as obl. 
 
 We also distinguish the commonly used nsubj:pass and csubj:pass for subjects of passive voice verbs.
 
