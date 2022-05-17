@@ -934,7 +934,7 @@ Polarity=Pos | VerbForm=Inf | VerbType=Cop
 We attach the root to להיות with deprel cop, and to צריכה with deprel aux.
 
 #### HebBinyan
-All Hebrew verbs have unique conjugations based on verbal templates called Binyanim. The seven verbal templates can be (loosely) divided into three groups, based on Voice. We assign this feature under Universal Features (formerly under Misc Features):
+All Hebrew verbs have unique conjugations based on verbal templates called Binyanim. The verbal templates can be (loosely) divided into three groups, based on Voice. We assign this feature under Universal Features (formerly under Misc Features):
 
 Active → PAAL, PIEL, HIFIL
 הוא קרא להפסקת התופעה.
@@ -949,6 +949,10 @@ Middle → NIFAL (often reciprocal, but may also be passive), HITPAEL (often in 
 Passive → PUAL, HUFAL
 כל עובד ישראלי שיסכים לעבוד בענף החקלאות ישובץ לעבודה לאלתר.
 עד סוף השנה לא תועסק בארץ אף אחות כעובדת זרה.
+
+NITPAEL is an additional binyan, originally more of Mishnaic origins, but used infrequently in more formal contexts in Modern Hebrew, with a meaning quite similar to HITPAEL.
+
+The PAUL verbal is not a binyan in and of itself, and is tagged as PAAL. We may optionally mark it, but not as an independent binyan.
 
 ### Additional Features
 #### Polarity
