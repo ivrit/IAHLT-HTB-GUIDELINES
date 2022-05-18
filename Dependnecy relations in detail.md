@@ -383,6 +383,7 @@ See iobj section for additional discussion, as well as here - https://github.com
 
 Further examples:
 להטיל נטל כבד יותר על מערכות הביטחון הסוציאלי  obj - a collocation, but "lehatil" is still transitive
+
 פוגע פגיעה קשה בזכותו החוקתית cognate npmod, notice "pogea oto" is bad, since not a transitive 
 
 
