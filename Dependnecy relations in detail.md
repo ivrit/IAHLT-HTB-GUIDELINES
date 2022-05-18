@@ -381,6 +381,11 @@ The complement is השיר, a truly valent object by its verb, not standalone, a
 
 See iobj section for additional discussion, as well as here - https://github.com/IAHLT/UD_Hebrew/issues/63#issuecomment-1126328193 and here - https://github.com/UniversalDependencies/docs/issues/832.
 
+Further examples:
+להטיל נטל כבד יותר על מערכות הביטחון הסוציאלי  obj - a collocation, but "lehatil" is still transitive
+פוגע פגיעה קשה בזכותו החוקתית cognate npmod, notice "pogea oto" is bad, since not a transitive 
+
+
 #### vocative
 
 This label is used to denote direct appellation of an addressee, either in conjunction with an imperative, or as a non-argument mention of the addressee. For example:
