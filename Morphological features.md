@@ -900,11 +900,12 @@ HIFIL →
 HITPAEL →
 שגב החליט שלא להתייחס לכך בכתבתו.
 
-The value VerbForm=Vnoun is assigned to infinitive absolute forms in adverbial clause constructions. We should distinguish between simple nouns, predominantly in smixut constructions, e.g., עד רדת הלילה, and clear adverbial clauses, 
-e.g., ברדתו אל הבאר, מעד ונחבל בראשו.
+~~The value VerbForm=Vnoun is assigned to infinitive absolute forms in adverbial clause constructions. We should distinguish between simple nouns, predominantly in smixut constructions, e.g., עד רדת הלילה, and clear adverbial clauses, 
+e.g., ברדתו אל הבאר, מעד ונחבל בראשו.~~
  
-We segment ב|רדת|ו in the following manner: ב is an SCONJ+mark; רדת is VERB+advcl with the features VerbForm=Vnoun|Voice=Act|HebBinyan=PAAL andLemma ירד; and the pronominal suffix ו is PRON+nsubj. 
-Copular Vnoun forms, however, like היותו should be left unsegmented, consistent with היה-הייתן...
+~~We segment ב|רדת|ו in the following manner: ב is an SCONJ+mark; רדת is VERB+advcl with the features VerbForm=Vnoun|Voice=Act|HebBinyan=PAAL andLemma ירד; and the pronominal suffix ו is PRON+nsubj. 
+Copular Vnoun forms, however, like היותו should be left unsegmented, consistent with היה-הייתן...~~
+
 
 #### VerbType
 Hebrew has two possible values for this feature: Cop standing for Copula, and Mod standing for Modal verbs and auxiliaries.
