@@ -216,6 +216,8 @@ The tag DET is given to determiners which specify (in)definiteness (ה, כמה) 
 -	אי (אֵי) - (PronType=Ind)
 -	מספיק
 -	כמה
+-	מינֵי\מין (Not in the kind type מין הצמח היה but in זה היה מין הצלחה אדירה שכזו)
+
 
 These lemmas inflect for Gender and Number, as follows:
 -	איזה (PronType=Int), איזו, אילו (Incorrect Spelling: אלו)
@@ -226,7 +228,6 @@ The following lemmas may not serve as DET in Hebrew:
 -	רוב (Incorrect Spelling: רב)
 -	מרבית
 -	כמות
--	מינֵי
 -	עיקר
 -	מיטב
 -	מחצית
