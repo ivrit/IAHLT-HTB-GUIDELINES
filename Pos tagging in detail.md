@@ -210,6 +210,7 @@ The tag DET is given to determiners which specify (in)definiteness (ה, כמה) 
 -	יותר
 -	פחות
 -	קצת
+-	מעט
 -	המון (הרבה Only when it substitutes for) 
 -	הרבה
 -	די (דֵי)
