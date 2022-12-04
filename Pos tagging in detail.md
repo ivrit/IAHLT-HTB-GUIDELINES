@@ -27,7 +27,7 @@ For adjectival/adverbial prefixes such as בלתי, תת see compound:affix.
 #### ADV
 The tag ADV is given to oblique modifiers of VERB and intensifiers of ADJ tokens when the ADV head is not modified by a preposition (otherwise, see NOUN and the deprel obl). These modifiers typically specify spatio-temporal, manner and purpose for VERB parents (אז, שם, כך, לפיכך), and degree (מאוד, פחות) for ADJ parents. Only ADV tokens (or equivalent multiword expressions chained via the deprel fixed) may carry the advmod deprel.
 
-This class includes untokenized fixed prepositional phrases and definite adverbials, such as היום, לעיתים etc. which are treated as one token in segmentation. Note that similar expressions which are segmented would not be labeled ADV, but rather receive a compositional analysis as NOUN, e.g.
+This class includes untokenized fixed prepositional phrases, which are treated as one token in segmentation. Note that similar expressions which are segmented would not be labeled ADV, but rather receive a compositional analysis as NOUN, e.g.
 ב/ADP מהירות/NOUN
 
 Negation is also treated as an adverbial modification, e.g. 
