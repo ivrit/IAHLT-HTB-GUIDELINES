@@ -82,6 +82,8 @@ Auxiliaries should be listed somewhere. They currently include:
 ●	 צפוי
 ●	 ניתן
 ●	...
+**Note** that אפשר is mostly used in the impersonal, thus a **root** verb, depreling the following verb by csubj - אי אפשר למצוא - finding is the subject clause, efshar is the root verb - not aux.
+
 One issue arising with auxiliaries is handling special negation, such as אי אפשר. This is currently handled with אי attached as compound:affix to אפשר, but this is invalid according to UD guidelines and validation scripts, which prohibit dependents of tokens labeled aux.
 The two possibilities are either treating it as a fixed expression, or attaching the negation to the main verb. Although it is morphosyntactically counterintuitive, I recommend the second option, since it avoids a multiword fixed auxiliary (creates problems for the language-specific list of auxiliaries in the validator), and streamlines the handling of complex predicate negation (looks exactly like standard לא, e.g. לא ניתן לעשות). This is generally the handling of negated modal auxiliaries across UD.
 
