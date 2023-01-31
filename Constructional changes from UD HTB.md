@@ -82,6 +82,7 @@ Auxiliaries should be listed somewhere. They currently include:
 ●	 צפוי
 ●	 ניתן
 ●	...
+
 **Note** that אפשר is mostly used in the impersonal, thus a **root** verb, depreling the following verb by csubj - אי אפשר למצוא - finding is the subject clause, efshar is the root verb - not aux.
 
 One issue arising with auxiliaries is handling special negation, such as אי אפשר. This is currently handled with אי attached as compound:affix to אפשר, but this is invalid according to UD guidelines and validation scripts, which prohibit dependents of tokens labeled aux.
