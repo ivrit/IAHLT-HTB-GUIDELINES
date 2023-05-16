@@ -824,7 +824,7 @@ tree
 
 #### obj or xcomp?
 
-Only transitive verbs can govern accusative objects (including forms that get the explicit definite accusative object because of colloquial-origin language changes – יש לי את ה..., בא לי את ה...). Middle and passive verbs don't govern objects: the middle is a reflexive category with the mention of only one argument (which is a syntactic subject – it comes no explicit syntactic object). In a passive clause what is usually expressed by the object (or sometimes another argument) is now expressed by the subject.
+Only transitive verbs can govern accusative objects (as well as forms that get the explicit definite accusative object in Modern Hebrew language usage – יש לי את ה..., בא לי את ה...). Middle and passive verbs don't govern objects: the middle is a reflexive category with the mention of only one argument (which is a syntactic subject – it comes no explicit syntactic object). In a passive clause what is usually expressed by the object (or sometimes another argument) is now expressed by the subject.
 
 
 The best way to check if a token is governed through `obj` is to apply the את ה... test:
