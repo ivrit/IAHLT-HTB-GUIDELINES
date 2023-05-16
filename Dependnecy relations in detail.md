@@ -26,6 +26,7 @@ The nsubj label is also used for existential predication (יש\אין) as well a
 tree
 
 This holds true for יש את as well (with its past or negative אין את, היה את), as in Modern Hebrew the את here does not mean the accusative, e.g.
+
 פה בסיפור הזה אין ויכוחים בין המשרדים, יש פה את משרד החינוך.
 
 The construct is a similar one on both parts of the sentence - the only difference is it's negative and indefinite at the start, positive and definite at the end. 
