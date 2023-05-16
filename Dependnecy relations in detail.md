@@ -38,7 +38,7 @@ The את does not change משרד החינוך into an object on its own, in an 
 
 
 The את is depreled case, with no Case=Acc feature. 
- ~~(for יש ל see obl, for יש את see obj). ~~
+ ~~(for יש ל see obl, for יש את see obj).~~
 
 
 
