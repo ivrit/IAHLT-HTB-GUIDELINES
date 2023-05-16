@@ -33,11 +33,12 @@ The construct is a similar one on both parts of the sentence - the only differen
 
 
 The את does not change משרד החינוך into an object on its own, in an otherwise obvious subject construct.
+
 את is (mostly) required for a definite existential or possessive construct in Modern Hebrew (פה בסיפור אין הוויכוחים*).
 
 
 The את is depreled case, with no Case=Acc feature. 
-~~ ~~(for יש ל see obl, for יש את see obj).
+ ~~(for יש ל see obl, for יש את see obj). ~~
 
 
 
