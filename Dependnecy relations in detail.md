@@ -21,9 +21,19 @@ tree
 
 tree
 
-The nsubj label is also used for existential predication (יש\אין) when the existential nominal appears without a preposition (for יש את see obj, for יש ל see obl).
+The nsubj label is also used for existential predication (יש\אין) as well as possessive constructs (יש ל\אין ל).
 
 tree
+
+This holds true for יש את as well (with its past or negative אין את, היה את), as in Modern Hebrew the את here does not mean the accusative, e.g.
+פה בסיפור הזה אין ויכוחים בין המשרדים, יש פה את משרד החינוך.
+
+The construct is a similar one on both parts of the sentence - the only difference is it's negative and indefinite at the start, positive and definite at the end. 
+The את does not change משרד החינוך into an object on its own, in an otherwise obvious subject construct. את is (mostly) required for a definite existential or possessive construct in Modern Hebrew (פה בסיפור אין הוויכוחים*). 
+The את is depreled case, with no Case=Acc feature. 
+~~ ~~(for יש ל see obl, for יש את see obj).
+
+
 
 In nested predicates where the nesting predicate is in a copula clause with its subject, two nsubj relations are possible for the same head. For example:
 
@@ -53,7 +63,10 @@ Note that pronominal objects with forms of את + suffix pronouns are analyzed i
 
 tree
 
-Additionally, accusative marked objects of the possessive construction are marked with the obj relation, unlike indefinite existentials which are labeled nsubj (see nsubj for יש + noun phrase).
+~~Additionally, accusative marked objects of the possessive construction are marked with the obj relation, unlike indefinite existentials which are labeled nsubj (see nsubj for יש + noun phrase).~~
+
+Note that יש את is not tagged obj; see nsubj.
+
 #### iobj
 The iobj label is used very sparingly, since Hebrew doesn’t incorporate a clear indirect object marking, which is usually mediated by a preposition (obl). 
 It is marked in some limited usage, with the same object position marker את, only when the regular object position itself is also marked (i.e. only when there is another object or ccomp):
