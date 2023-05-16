@@ -30,7 +30,11 @@ This holds true for יש את as well (with its past or negative אין את, ה
 פה בסיפור הזה אין ויכוחים בין המשרדים, יש פה את משרד החינוך.
 
 The construct is a similar one on both parts of the sentence - the only difference is it's negative and indefinite at the start, positive and definite at the end. 
-The את does not change משרד החינוך into an object on its own, in an otherwise obvious subject construct. את is (mostly) required for a definite existential or possessive construct in Modern Hebrew (פה בסיפור אין הוויכוחים*). 
+
+
+The את does not change משרד החינוך into an object on its own, in an otherwise obvious subject construct. את is (mostly) required for a definite existential or possessive construct in Modern Hebrew (פה בסיפור אין הוויכוחים*).
+
+
 The את is depreled case, with no Case=Acc feature. 
 ~~ ~~(for יש ל see obl, for יש את see obj).
 
