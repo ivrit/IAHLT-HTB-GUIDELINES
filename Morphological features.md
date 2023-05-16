@@ -569,7 +569,7 @@ If the paradigm includes two values, these values are sorted only to singular an
         <td></td>
         <td>Polarity</td>
         <td>Pos</td>
-        <td>Forms of יש (existential): הם פשוט תהו, נזכר לנקובסקי, "למי יש רעיונות מעניינים?"</td>
+        <td>Forms of יש (existential/possessive): הם פשוט תהו, נזכר לנקובסקי, "למי יש רעיונות מעניינים?"</td>
     </tr>
     <tr>
         <td></td>
